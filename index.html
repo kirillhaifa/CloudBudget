@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CloudBudget</title>
+    <link rel="stylesheet" href="./fonts/fonts.css" />
+    <!--переподключи по нормальномуБ не через интернет-->
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="icon" href="./images/cloud-black-shape.ico" sizes="any" />
+    <link
+      rel="icon"
+      href="./images/cloud-black-shape.svg"
+      type="image/svg+xml"
+    />
+    <link rel="apple-touch-icon" href="./images/cloud-black-shape.png" />
+    <meta property="og:title" content="CloudBudget" />
+    <meta property="og:url" content="#0" />
+    <meta property="og:image" content="./images/cloud-black-shape.png" />
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta name="description" content="Cloud budget management for everyone" />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="header__overlay"></div>
+      <div class="header__first-line">
+        <div class="header__logo">
+          <img
+            class="header__logo-image"
+            src="./images/dashicons-cloud.svg"
+            alt="small white cloud"
+          />
+          <p class="header__logo-name">CloudBudget</p>
+        </div>
+        <nav class="header__nav">
+          <ul class="header__nav-list">
+            <li class="header__nav-item"><a href="">OVERVIEW</a></li>
+            <li class="header__nav-item"><a href="">FEATURES</a></li>
+            <li class="header__nav-item"><a href="">TECHNOLOGY</a></li>
+            <li class="header__nav-item"><a href="">CONTACT</a></li>
+            <li class="header__nav-item"><a href="">SIGN UP</a></li>
+          </ul>
+        </nav>
+        <div class="header__lang-and-login">
+          <div class="header__lang">
+            <img
+              class="header__lang-img"
+              src="./images/us-flag.svg"
+              alt="USA flag"
+            />
+            <label for="lang-button" class="header__lang-label">EN</label>
+            <button id="lang-button" class="header__lang-button"></button>
+          </div>
+          <button class="header__login-button">LOGIN</button>
+        </div>
+      </div>
+      <div class="header__title-contariner">
+        <h1 class="header__title">CloudBudget</h1>
+        <div>
+          <p class="header-text">Cloud budget management for everyone. Only</p>
+          <p class="header-text">€69.95 a Month After a 7 Day Trial of</p>
+          <p class="header-text">Up to €4.99</p>
+        </div>
+        <button class="header__sign-up-button">Sign Up</button>
+      </div>
+    </header>
+    <main>
+      <section class="video-section">
+        <div class="video-section__text-contauner">
+          <h2 class="video-section__title">
+            Easy to Use Cloud Budget Management Software
+          </h2>
+          <p class="video-section__text">
+            Our software is made so you can access and manage your budget and
+            expenses online at any time from any device. It provides detailed
+            income and expense reports with graphs so you can easilly see your
+            spending patterns and budget at a glance. Read below to find out
+            more.
+          </p>
+          <a href="#0" class="video-section__learn-more-link">Learn More</a>
+        </div>
+          <div class="video-section__video-cover">
+            <button id="play-button" class="video-section__play-button"></button>
+            <a class="video-link" href="#0"></a>
+            <label for="play-button" class=" visually-hidden">play button</label>
+          </div>
+      </section>
+      <section class="features">
+        <h2 class="features__title">Features</h2>
+        <div class="features__cards">
+          <ul class="features__cards-list">
+            <li class="features__card-items">
+              <div class="features__cards-image supports"></div>
+              <div class="features__cards-text-container">
+                <h3 class="features__cards-text-title">
+                  Supports All Currencies and Cards
+                </h3>
+                <p class="features__cards-text">
+                  We support all popular currencies and is fully customizable to
+                  add
+                </p>
+                <a href="#0" class="features__cards-learn-more-link"
+                  >Read More</a
+                >
+              </div>
+            </li>
+            <li class="features__card-items">
+              <div class="features__cards-image manage"></div>
+              <div class="features__cards-text-container">
+                <h3 class="features__cards-text-title">
+                  Manage your expenses on the go
+                </h3>
+                <p class="features__cards-text">
+                  You can access your account from anywhere in the world on any
+                  device
+                </p>
+                <a href="#0" class="features__cards-learn-more-link"
+                  >Read More</a
+                >
+              </div>
+            </li>
+            <li class="features__card-items">
+              <div class="features__cards-image budget"></div>
+              <div class="features__cards-text-container">
+                <h3 class="features__cards-text-title">
+                  Cloud Budget Management Software
+                </h3>
+                <p class="features__cards-text">
+                  Our software is made so you can access<br />
+                  and manage your budget
+                </p>
+                <a href="#0" class="features__cards-learn-more-link"
+                  >Read More</a
+                >
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="technology">
+        <h2 class="technology__title">Technology</h2>
+        <ul class="technology__list">
+          <li class="technology__list-item">
+            <div class="technology__number-image-container">
+              <p class="technology__number">01</p>
+              <img
+                class="technology__image download-cloud"
+                src="./images/ant-design_cloud-download-outline.svg"
+                alt="download cloud icon"
+              />
+            </div>
+            <h3 class="technology__list-item-title">Cloud Storage</h3>
+            <p class="technology__list-item-text">
+              Access your account from anywhere in the world on any device
+            </p>
+          </li>
+          <li class="technology__list-item">
+            <div class="technology__number-image-container">
+              <p class="technology__number">02</p>
+              <img
+                class="technology__image security-scan"
+                src="./images/ant-design_security-scan-outline.svg"
+                alt="security scan icon"
+              />
+            </div>
+            <h3 class="technology__list-item-title">Secure</h3>
+            <p class="technology__list-item-text">
+              All your information is stored on secure cloud servers
+            </p>
+          </li>
+          <li class="technology__list-item">
+            <div class="technology__number-image-container">
+              <p class="technology__number">03</p>
+              <img
+                class="technology__image pdf-file"
+                src="./images/iwwa-file-pdf.svg"
+                alt="pdf file icon"
+              />
+            </div>
+            <h3 class="technology__list-item-title">PDF Download</h3>
+            <p class="technology__list-item-text">
+              Download any of your reports in PDF format
+            </p>
+          </li>
+          <li class="technology__list-item">
+            <div class="technology__number-image-container">
+              <p class="technology__number">04</p>
+              <img
+                class="technology__image csv-file"
+                src="./images/iwwa-file-csv.svg"
+                alt="csv file icon"
+              />
+            </div>
+            <h3 class="technology__list-item-title">CSV Download</h3>
+            <p class="technology__list-item-text">
+              All your information is stored on secure cloud servers
+            </p>
+          </li>
+        </ul>
+      </section>
+      <section class="saving">
+        <div class="saving__text-container">
+          <h2 class="saving__title">Stay focused on saving money</h2>
+          <p class="saving__text">
+            It is important to stay focused on saving money in any way you can.
+            We help you monitor your spending habits so you can easily spot and
+            cut any unnecessary expenses. Simply join today to get started!
+          </p>
+          <ul class="saving__icon-list">
+            <li class="saving__icon">
+              <a href="#0">
+                <img
+                  class="saving__icon-img"
+                  src="./images/ion-logo-google-playstore.svg"
+                  alt="google playstore icon"
+                />
+              </a>
+            </li>
+            <li class="saving__icon">
+              <a href="#0">
+                <img
+                  class="saving__icon-img"
+                  src="./images/ion-logo-apple-appstore.svg"
+                  alt="apple appstore icon"
+                />
+              </a>
+            </li>
+            <li class="saving__icon">
+              <a href="#0">
+                <img
+                  class="saving__icon-img"
+                  src="./images/simple-icons_windows.svg"
+                  alt="windows icon"
+                />
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="saving__image-container">
+          <div class="saving__image-third-layer"></div>
+          <div class="saving__image-second-layer"></div>
+          <div class="saving__image-first-layer"></div>
+        </div>
+      </section>
+      <section class="contacts">
+        <div class="contacts__text-container">
+          <h2 class="contacts__title">Contact</h2>
+          <p class="contacts__text">
+            Questions or concerns? Just fill out the form below and our support
+            team will get back to you within 24 hours
+          </p>
+        </div>
+        <form class="form">
+          <fieldset class="form__fieldset">
+            <legend class="form__legend visually-hidden">Your contacts</legend>
+            <label class="visually-hidden" for="first-name">first name</label>
+            <input
+              class="form__input-name"
+              type="text"
+              id="first-name"
+              name="first-name"
+              placeholder="First Name"
+            />
+            <label class="visually-hidden" for="last-name">last name</label>
+            <input
+              class="form__input-name"
+              type="text"
+              id="last-name"
+              name="last-name"
+              placeholder="Last Name"
+            />
+            <label class="visually-hidden" for="phone-number visually-hidden"
+              >phone number</label
+            >
+            <input
+              class="form__input-long-phone"
+              type="tel"
+              id="phone-number"
+              name="phone-number"
+              placeholder="Phone Number"
+            />
+            <label class="visually-hidden" for="select-service"
+              >select service</label
+            >
+            <select
+              class="form__input-long-select"
+              id="select-service"
+            >
+              <option value="" disabled selected>Select Service</option>
+              <option value="overview">overview</option>
+              <option value="features">features</option>
+              <option value="technology">technology</option>
+              <option value="Terms-&-Conditions">Terms & Conditions</option>
+              <option value="Privecy">Privecy</option>
+            </select>
+            <label class="visually-hidden" for="Submit">Submit Now</label>
+            <input
+              class="form__submit"
+              type="submit"
+              id="Submit"
+              value="Submit Now"
+            />
+          </fieldset>
+        </form>
+      </section>
+    </main>
+    <footer class="footer">
+      <address class="footer__address">
+        <h3 class="footer__title">Address</h3>
+        <a
+          target="_blank"
+          href="https://www.google.com/maps/place/Regus+-+Nicosia+Jacovides+Tower/@35.1639,33.3471251,17z/data=!3m1!4b1!4m6!3m5!1s0x14de19ff9e332da3:0x940ba16b07cf269b!8m2!3d35.1639!4d33.3497!16s%2Fg%2F1q62dz7h2?entry=ttu"
+          class="footer__link"
+          ><p>Pipang Ltd, Griva Digeni,</br> 81-83 Jacovides Tower, 1st Floor</br> 1090
+          Picosia USA</p></a
+        >
+      </address>
+      <div class="footer__services">
+        <h3 class="footer__title">Services</h3>
+        <ul class="footer__list">
+          <li>overview</li>
+          <li>features</li>
+          <li>technology</li>
+          <li>Terms & Conditions</li>
+          <li>Privecy</li>
+        </ul>
+      </div>
+      <div class="footer__get">
+        <h3 class="footer__title">Get in Touch</h3>
+        <a class="footer__mail" href="mailto:info@cloudbudget.com">
+          info@cloudbudget.com
+        </a>
+        <a class="footer__phone-number" href="tel:+1 844-721-7120">
+          +1 844-721-7120
+        </a>
+        <ul class="footer__social-list">
+          <li class="footer__social-items">
+            <a href="#0" class="fotter__link">
+              <img
+                class="footer__social-img"
+                src="./images/feather-facebook.svg"
+                alt="logo facebook"
+              />
+            </a>
+          </li>
+          <li class="footer__social-items">
+            <a href="#0" class="fotter__link">
+              <img
+                class="footer__social-img"
+                src="./images/feather-linkedin.svg"
+                alt="logo linkedin"
+              />
+            </a>
+          </li>
+          <li class="footer__social-items">
+            <a href="#0" class="fotter__link">
+              <img
+                class="footer__social-img"
+                src="./images/feather-twitter.svg"
+                alt="logo twitter"
+              />
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer_support">
+        <h3 class="footer__title">We Support</h3>
+        <img
+          class="footer__support-img"
+          src="./images/card-types.png"
+          alt="logo of credit companies"
+        />
+      </div>
+      <p class="footer-copyright">Copyright 2018 CloudBudget</p>
+    </footer>
+  </body>
+</html>
