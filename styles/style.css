@@ -243,6 +243,7 @@ ol {
   background-repeat: no-repeat;
   background-position: -10px 3px;
   background-size: 105%;
+  flex-shrink: 0;
 }
 
 .video-link {
