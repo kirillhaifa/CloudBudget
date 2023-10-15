@@ -46,8 +46,8 @@ ol {
   height: 100%;
   background: linear-gradient(
     90deg,
-    rgba(213, 32, 71, 0.8) 0%,
-    rgba(238, 61, 27, 0.8) 100%
+    rgb(213 32 71 / 0.8) 0%,
+    rgb(238 61 27 / 0.8) 100%
   );
 }
 
@@ -197,7 +197,7 @@ ol {
   display: flex;
   justify-content: center;
   gap: 103px;
-  margin: 90px 0 86px 0;
+  margin: 90px 0 86px;
 }
 
 .video-section__text-contauner {
@@ -207,7 +207,7 @@ ol {
 .video-section__title {
   max-width: 445px;
   min-height: 107px;
-  margin: 48px 0 24px 0;
+  margin: 48px 0 24px;
   color: #000;
   font-weight: 600;
   font-size: 36px;
@@ -254,7 +254,6 @@ ol {
 .video-section__play-button {
   width: 66px;
   height: 66px;
-  margin-top: 2px;
   margin-top: 127px;
   margin-left: -32px;
   border: none;
@@ -316,16 +315,16 @@ ol {
 .features__cards-text-container {
   width: 293px;
   height: 198px;
-  margin: -93px auto 0 auto;
+  margin: -93px auto 0;
   border-radius: 8px;
-  box-shadow: 0 5px 30px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 5px 30px 0 rgb(0 0 0 / 0.1);
   background: #fff;
 }
 
 .features__cards-text-title {
   width: 229px;
   height: 40px;
-  margin: 0 auto 55px auto;
+  margin: 0 auto 55px;
   padding-top: 33px;
   color: #101010;
   font-weight: 700;
@@ -387,7 +386,7 @@ ol {
 }
 
 .technology__number {
-  color: rgba(16, 16, 16, 0.08);
+  color: rgb(16 16 16 / 0.08);
   font-weight: 700;
   font-size: 100px;
   text-align: center;
@@ -573,7 +572,7 @@ ol {
 }
 
 .form__input-name::placeholder {
-  color: rgba(19, 39, 67, 0.5);
+  color: rgb(19 39 67 / 0.5);
   font-weight: 400;
   font-size: 16px;
 }
@@ -584,13 +583,13 @@ ol {
   border: 1px solid var(--Gray-1, #333);
   border-radius: 6px;
   padding-left: 28px;
-  color: rgba(0, 0, 0);
+  color: rgb(0 0 0);
   font-weight: 400;
   font-size: 16px;
 }
 
 .form__input-long-phone::placeholder {
-  color: rgba(19, 39, 67, 0.5);
+  color: rgb(19 39 67 / 0.5);
   font-weight: 400;
   font-size: 16px;
 }
@@ -604,10 +603,10 @@ ol {
   border-radius: 6px;
   padding-left: 30px;
   overflow: hidden;
-  color: rgba(19, 39, 67, 0.5);
+  color: rgb(19 39 67 / 0.5);
   font-weight: 400;
   font-size: 16px;
-  background: url("../images/caret.svg") no-repeat right 25px top 25px;
+  background: url(../images/caret.svg) no-repeat right 25px top 25px;
   cursor: pointer;
   appearance: none;
 }
@@ -630,8 +629,8 @@ ol {
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 1fr);
   grid-template-areas:
-    "address services touch support"
-    "copyright copyright copyright copyright";
+    'address services touch support'
+    'copyright copyright copyright copyright';
   height: 435px;
   padding: 86px 196px 86px 166px;
   background: #fafafa;
@@ -729,13 +728,10 @@ ol {
 }
 
 .footer-copyright {
-  grid-area: copyright;
-}
-
-.footer-copyright {
   margin-top: 104px;
   margin-left: -6px;
   color: #101010;
   font-weight: 400;
   font-size: 12px;
+  grid-area: copyright;
 }
